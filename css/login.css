@@ -1,0 +1,51 @@
+/* IT21268144 | Jayasinghe J.A.M.P*/
+body{
+  background-image: url('../img/image1.jpg');
+  height:100%;
+  background-size:cover;
+  background-position:center;  
+}
+
+
+
+.login-form{
+	position:relative;
+  top:40px;
+  right:40px;
+  z-index:1;
+  box-shadow: 0 5px 10px rgba(0,0,0,.1);
+  background:white;
+  width:25%;
+  margin:0 auto 100px;
+  padding:80px;
+  text-align:center;
+  
+}
+.login-form input{
+	font-family:sans-serif;
+	width:100%;
+	background:#f2f2f2;
+	border:0;
+	margin:0 0 10px;
+	padding:20px;
+	font-size:14px;
+
+}
+#submitbtn{
+  font-family: sans-serif;
+  text-transform:uppercase;
+  outline:0;
+  background:#4CAF50;
+  width:50%;
+  border:0;
+  padding:15px;
+  color:#FFFFFF;
+  font-size:14px;
+  cursor:pointer;
+  
+}
+.login-page{
+  width:450px;
+  padding:10% 0 0;
+  margin:auto;
+}

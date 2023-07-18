@@ -1,0 +1,159 @@
+
+<!--IT21268076-->
+<!--H.M.C.H.Karunathilaka-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+
+     
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Jost:wght@100&family=Paytone+One&family=Radio+Canada&family=Staatliches&family=Yantramanav:wght@300&display=swap" rel="stylesheet"> 
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+        <title>Electricity board</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/footer.css">
+        
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+
+        var data = google.visualization.arrayToDataTable([
+          ['Source', 'Amount'],
+          ['Hydro Power',  5.6   ],
+          ['Wind onshore',  49.6    ],
+          ['Solar', 19.7 ],
+          ['Nuclear',12.8 ],
+          ['Fossil Coal',  61.1  ],
+          ['Fossil Gas',   18.7  ],
+          ['Biomass',    15.6  ],
+          ['Wind offshore', 10.1 ],
+          ['Fossil oil',0.5 ],
+          ['others',   5.6 ]
+
+        ]);
+
+        var options = {
+          title: 'Resource usage',
+          is3D: true,
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+
+        chart.draw(data, options);
+      }
+    </script>
+    </head>
+    <body>
+        <section id="bimg">
+            <img class="logo" src="img/logo.png" >
+            <div class="navg">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+               <li><a href="Registration.html">Registration</a></li>
+               <li><a href="Contact.html">Contact Us</a></li> 
+               <li><a href="Payment.html">Payment</a></li> 
+               <li><a href="Ebill.html">E-Bill</a></li>
+               <li><a href="User.html">User Account </a></li>
+                </ul>
+            </div>
+
+            <div class="search">
+                
+                <form method="post" action="php/home.php">
+                    <input class="srch" type="text" name="srch" placeholder="Type to Search">
+                    <input class="btn" type="submit" value="Search" name="btnSubmit">
+                
+            </form>
+            </div>
+            <div class="btext">
+                <p>S a v e  E n e r g y</p>
+                <h1>ELECTRICITY BOARD</h1>
+                <p> Modern now and in the future</p>
+                
+            </div>
+            <div class="reg">
+                <a href="login.html"><span></span>Login</a>
+                <a href="Registration.html"><span></span>Sign up</a>
+            </div>
+        </section>
+
+        <section id="nc">
+            <div class="news">
+                <h1>News</h1>
+                <a href="https://www.aa.com.tr/en/economy/russia-suspends-electricity-supply-to-finland/2587828">Russia suspends electricity supply to Finland</a>
+                <p>Inter RAO, Russia's largest electricity company, has suspended electricity supply to Finland, according to news reports on Saturday. Inter RAO's Finnish subsidiary, RAO Nordic Oy, said in a statement...</p>
+                <a href="https://article.wn.com/view/2022/05/18/Afghanistan_Owes_Over_100_Million_for_Electricity/">Afghanistan Owes Over $100 Million for Electricity</a>
+                <p>The Ministry of Energy and Water (MoEW) said that Afghanistan owes more than $100 million for electricity imported from Uzbekistan and Tajikistan. Akhtar Mohammad Nusrat, a spokesman for the ministry,...</p>
+                <a href="https://article.wn.com/view/2022/05/19/Mercedes_aims_to_fuel_road_to_electric_luxury_with_desire_h/">Mercedes aims to fuel road to electric luxury with 'desire'</a>
+                <p>Mercedes-Benz has said it aims to sell exclusively electric vehicles in 2030 where market conditions allow. The volume of EVs sold will accelerate in the second half of the decade, Kaellenius said,...</p>
+                <a href="http://electricity.com/articles/google_builds_electric_vehicles_network/">Google builds largest EV charging network for electric vehicles</a>
+                <p>Google has stated that it is counting itself as the largest electric-vehicle charging station operator in the United States with new and faster Level 2" chargers installed at its headquarters in Mountain View, California. The new installation will bring in the total capacity of charging points to 200 chargers with 250 on their way. Moreover, Google is also including new generation of plug-in vehicles in its Gfleet car sharing program along with expanding its EV charging infrastructure.</p>
+                
+                <a href="http://electricity.com/" style="font-size: 23px;">More..</a>
+                
+
+            </div>
+            <div class="chart">
+                <h1>Electricity Generation</h1>
+                <div id="piechart" style="width: 900px; height: 500px;"></div>
+            </div>
+        </section>
+
+        <section id="c">
+            <div class="payh">
+                <h3>Pay your Bill Here </h3>
+                <div class="p">
+                   <a href="Payment.html" ><span></span>PAY NOW!</a> 
+                </div>
+            </div>
+        </section>
+         <div class="footer-dark">
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-3 item">
+            <h3>About</h3>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="User">Profile </a></li>
+              <li><a href="Contact.html">Contact Us</a></li>
+              <li><a href="Payment.html">Payment</a></li>
+              <li><a href="Ebill.html">E-Bill</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-6 col-md-3 item">
+            <h3>Group Members</h3>
+            <ul>
+              <li><a href="IT21268144@my.sliit.lk">IT21268144 | J.A.M.P.Jayasingha</a></li>
+              <li><a href="IT21268076@my.sliit.lk">IT21268076 | H.M.C.H.Karunathilaka</a></li>
+              <li><a href="IT21267468@my.sliit.lk">IT21267468 | Prathapa S.K.K</a></li>
+              <li><a href="IT21358348@my.sliit.lk">IT21358548 | Bandara S.S.A.I.S</a></li>
+              <li><a href="IT21356186@my.sliit.lk">IT21356186 | Kavishwara B.H.M.S</a></li>
+            </ul>
+          </div>
+          <div class="col-md-6 item text">
+            <h3>MLB_04_02_08</h3><br>
+            <p>Online Bill and Event Reminder</p>
+  
+          </div>
+          <div class="col item social"><br>
+            <a href="https://www.facebook.com/"><i class="icon ion-social-facebook"></i></a>
+            <a href="https://twitter.com/?lang=en"><i class="icon ion-social-twitter"></i></a>
+            <a href="https://www.snapchat.com/"><i class="icon ion-social-snapchat"></i></a>
+            <a href="https://www.instagram.com/?hl=en"><i class="icon ion-social-instagram"></i></a>
+          </div>
+        </div>
+        <p class="copyright">MLB_04_02_08 © 2022</p>
+      </div>
+    </footer>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
